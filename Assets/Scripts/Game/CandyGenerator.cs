@@ -63,7 +63,11 @@ public class CandyGenerator : MonoBehaviour
         int lives = player_script.player_lives;
         int live_changer = candy_script.lifeChanges;
         lives += live_changer;
+        int thePuntuation = player_script.puntuation;
+        int puntuation_changer = candy_script.puntuationChanges;
+        thePuntuation += puntuation_changer;
         print(lives);
+        print(thePuntuation);
         if (lives <= 0)
         {
             SceneManager.LoadScene("GameOver");

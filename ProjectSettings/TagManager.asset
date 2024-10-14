@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Candy
+  - Candy1
+  - Candy2
   layers:
   - Default
   - TransparentFX
